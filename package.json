@@ -1,15 +1,24 @@
 {
   "name": "slackbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "- node.jsをインストール - npmをインストール - npm installを実行 - node app/app.jsを実行",
   "main": "index.js",
   "dependencies": {
     "slackbots": "^0.5.3"
+    "async": "^2.1.3"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "rssh",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rssh-jp/slacktest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rssh-jp/slacktest/issues"
+  },
+  "homepage": "https://github.com/rssh-jp/slacktest#readme"
 }
